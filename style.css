@@ -9,14 +9,36 @@ html {
 }
 
 #Joke {
-  background-color: green;
-  margin: 20px 40px;
+  background-color: #e0f1e0;
+  margin: 40px 40px;
   padding: 10px 10px;
   border: 2px solid black;
   font-size: 25px;
+  height: 125px;
+  width: 400px;
 }
 
-body{
+h1 {
+  margin: 35px 40px;
+  padding: 10px 10px;
+  font-size: 45px;
+}
+
+body {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#btn {
+  background-color: aquamarine;
+  padding: 8px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 2px solid black;
+}
+#btn:hover{
+  background-color: mediumaquamarine;
 }

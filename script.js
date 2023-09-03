@@ -63,17 +63,17 @@ let a=["What do kids play when their mom is using the phone? Bored games.",
 "Why are basketball courts always wet? Because the players dribble.",
 "How do billboards talk? Sign language.",
 "What do you call a duck that gets good grades? A wise quacker.",
-"66What do you call a fish without an eye? A fsh.",
-"6What kind of keys are sweet? Cookies!",
-"6What board game does the sky love to play? Twister.",
-"6Why does a seagull fly over the sea? Because if it flew over the bay, it would be a baygull.",
+"What do you call a fish without an eye? A fsh.",
+"What kind of keys are sweet? Cookies!",
+"What board game does the sky love to play? Twister.",
+"Why does a seagull fly over the sea? Because if it flew over the bay, it would be a baygull.",
 "What do you call a tired bull? A bulldozer.",
 "What do you call cheese that belongs to someone else? Nacho cheese!",
 "Why are pizza jokes the worst? They’re too cheesy.",
 "What kind of water cannot freeze? Hot water.",
 "Why was the belt arrested? Because it was holding up some pants.",
 "Why did the peanut get into a rocket? He wanted to be an astro-nut!",
-"6Did you hear the joke about the roof? Never mind, it would go over your head.",
+"Did you hear the joke about the roof? Never mind, it would go over your head.",
 "Why did the cookie go to the hospital? Because it was feeling a little crummy.",
 "What did the ghost call his Mum and Dad? His transparents.",
 "What fruit do twins love? Pears!",
@@ -199,3 +199,8 @@ let a=["What do kids play when their mom is using the phone? Bored games.",
 let c = Math.floor(Math.random() * (a.length));
 let b = a[c];
 document.getElementById("Joke").innerHTML=b;
+document.getElementById("btn").onclick = function(){
+let c = Math.floor(Math.random() * (a.length));
+let b = a[c];
+document.getElementById("Joke").innerHTML=b;
+}
